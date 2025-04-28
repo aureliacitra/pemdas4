@@ -22,4 +22,14 @@ class planet{
             cin >> gravitasi;
         }
       };
-     
+      
+      int main()
+      {
+       planet venus;
+       venus.inputdata();
+             cout << "namanya adalah " << venus.nama << endl;
+             cout << "diameter adalah " << venus.diameter << endl;
+      
+        venus.displaydata();
+      }
+      
