@@ -8,4 +8,9 @@ class planet{
     public: 
          string nama;
          float diameter;
-}
+
+         void displaydata(){
+            cout << " gravitasiku " << gravitasi << endl;
+           }
+  
+        }
