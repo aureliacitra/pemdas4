@@ -22,3 +22,12 @@ class persegipanjang{
         cout << "luas persegi panjang = " << luas << endl;
       }
   };
+  
+  int main(){
+    persegipanjang  pj;
+    pj.inputdata();
+    pj.menghitungluas();
+    pj.output();
+    return 0;
+  
+  }
