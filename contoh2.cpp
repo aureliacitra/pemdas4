@@ -18,4 +18,7 @@ class persegipanjang{
         luas = panjang*lebar;
       }
   
-     
+      void output(){
+        cout << "luas persegi panjang = " << luas << endl;
+      }
+  };
