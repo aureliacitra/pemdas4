@@ -14,4 +14,8 @@ class persegipanjang{
         cin >> lebar;
       }
       
-    
+      void menghitungluas(){
+        luas = panjang*lebar;
+      }
+  
+     
