@@ -7,4 +7,11 @@ class persegipanjang{
     float lebar;
     float luas;
 
-   
+    void inputdata(){
+        cout << "input panjang : ";
+        cin >> panjang;
+        cout << "input lebar : ";
+        cin >> lebar;
+      }
+      
+    
